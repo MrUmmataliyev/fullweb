@@ -3,14 +3,29 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { GetallComponent } from './components/getall/getall.component';
+import { UpdateuserComponent } from './components/updateuser/updateuser.component';
+import { DeleteuserComponent } from './components/deleteuser/deleteuser.component';
+import { GetbyidComponent } from './components/getbyid/getbyid.component';
+import { CreateComponent } from './components/create/create.component';
+import { RouterModule } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavbarComponent,
+    GetallComponent,
+    UpdateuserComponent,
+    DeleteuserComponent,
+    GetbyidComponent,
+    CreateComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
