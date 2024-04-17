@@ -22,6 +22,15 @@ export class CrudService {
     return this.http.get<UserModel[]>(this.baseUrl+'GetAll')
   }
   createUser(data: CreateUser):Observable<Message>{
-    return this.http.post<Message>('http://localhost:5025/api/User/CreateUser', data)
+    return this.http.post<Message>(this.baseUrl+'CreateUser', data)
+  }
+  getById(id:number): Observable<UserModel> {
+    return this.http.get<UserModel>(this.baseUrl+`GetByUserId?id=${id}`)
+  }
+  update(id:number, data:CreateUser):Observable<Message>{
+    return this.http.put<Message>(this.baseUrl+`UpdateUser?id=${id}`, data);
+  }
+  delete(id:number):Observable<Message>{
+    return this.http.delete<Message>(this.baseUrl+`DeleteUser?id=${id}`)
   }
 }
