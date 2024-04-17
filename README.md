@@ -2,3 +2,7 @@
 ![image](https://github.com/MrUmmataliyev/fullweb/assets/145908814/2aa6e3b3-b820-405e-8467-42adf57b23b0)
 ![image](https://github.com/MrUmmataliyev/fullweb/assets/145908814/0e8ccecd-875b-4209-a8f6-4420b461f5bc)
 ![image](https://github.com/MrUmmataliyev/fullweb/assets/145908814/30ebc003-83ab-4608-b808-b6a3951388f1)
+![image](https://github.com/MrUmmataliyev/fullweb/assets/145908814/e402a7ec-34d7-4821-8673-1670dc7de70c)
+![image](https://github.com/MrUmmataliyev/fullweb/assets/145908814/d32cc73c-6bea-4e2b-b7d2-3a47f67eda3e)
+![image](https://github.com/MrUmmataliyev/fullweb/assets/145908814/13c1a91f-5c26-4fae-b8c8-7a28a54eb8f9)
+![image](https://github.com/MrUmmataliyev/fullweb/assets/145908814/59b40775-51a4-43b4-be2c-38b306f091d7)
